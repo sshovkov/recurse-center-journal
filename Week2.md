@@ -58,16 +58,9 @@ Ta-da. [Swap Code](https://marketplace.visualstudio.com/items?itemName=SophiaSho
 
 One of my focus areas for RC is experimenting with generative art, and I came across Perlin Noise while going down a rabbit hole of procedural texture generation.
 
-Perlin noise is a procedural texture primitive, a type of gradient noise used in visual effects to increase the appearance of realism in computer graphics.
+Perlin noise is a procedural texture primitive, a type of gradient noise used in visual effects to increase the appearance of realism in computer graphics. Multiple layers of Perlin Noise produce Fractal Noise, a noise pattern commonly used to create complex and natural-looking patterns like clouds, fire, or terrain.
 
-Multiple layers of Perlin Noise produce Fractal Noise, a noise pattern commonly used to create complex and natural-looking patterns like clouds, fire, or terrain.
-
-To build a Fractal Noise generator, I mainly understood the task as
-
-1. Create variables for fractal noise factors, like octaves and scale
-2. Create Perlin Noise for every layer (octave) using Python's [perlin-noise](https://pypi.org/project/perlin-noise/) library
-
-For a v1 of the generator, I defined the fractal noise parameters as
+For a v1, I built a Fractal Noise generator defined with the following parameters
 
 ```
 width, height = (512, 512)
@@ -81,10 +74,10 @@ octaves = 6
 - `persistence`: controls how much each successive octave contributes to the final noise pattern
 - `octaves`: the number of layers of noise to be combined to create the final pattern
 
-To generate the Fractal Noise pattern I...
+To produce the Fractal Noise pattern I...
 
 1. Initialized a `width`x`height` NumPy array `noise` with 0's
-2. For each octave, generated Perlin Noise
+2. For each octave, generated Perlin Noise using Python's [perlin-noise](https://pypi.org/project/perlin-noise/) library
 3. For each octave, retrieved the corresponding pixel value of the generated Perlin Noise for each normalized coordinate in `height`x`width`
 
 The end result looks something like this -
