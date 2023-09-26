@@ -22,7 +22,7 @@ Special s/o to these blogs -
 
 I want to make sure to document my projects and growth too, and maybe it will be helpful for someone else in the future.
 
-I decided to use a Github repo for journaling primarily because I love markdown and didn't want building a portfolio website to be one of my focal points at RC. Getting a custom-built blog into a place that met my standards was definitely going to take up valuable time, so I ultimately decided to use a platform that I knew well and supported code. I didn't want where I documented my growth to be a blocker for actually getting it done.
+I decided to use a GitHub repo for journaling primarily because I love markdown and didn't want building a portfolio website to be one of my focal points at RC. Getting a custom-built blog into a place that met my standards was definitely going to take up valuable time, so I ultimately decided to use a platform that I knew well and supported code. I didn't want where I documented my growth to be a blocker for actually getting it done.
 
 ## Quality through quantity (#PoundsOfClay)
 
@@ -38,7 +38,7 @@ While I still believe in that level of detail, I want my limited time at RC to b
 
 ## Building a VSCode Extension - `SwapCode`
 
-[Github Repo](https://github.com/sshovkov/swapcode-vscode-extension)
+[GitHub Repo](https://github.com/sshovkov/swapcode-vscode-extension)
 
 Rearranging code in a file is a natural part of development. There are a number of code-swapping extensions for VSCode, but none that I have found to work intuitively.
 
@@ -54,7 +54,7 @@ Ta-da. [Swap Code](https://marketplace.visualstudio.com/items?itemName=SophiaSho
 
 ## A Fractal Noise Generator
 
-[Github Repo](https://github.com/sshovkov/fractal-noise-generator)
+[GitHub Repo](https://github.com/sshovkov/fractal-noise-generator)
 
 One of my focus areas for RC is experimenting with generative art, and I came across Perlin Noise while going down a rabbit hole of procedural texture generation.
 

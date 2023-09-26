@@ -30,7 +30,7 @@ If you’re a visual person like me, Obsidian’s graphs feature helps new conce
 
 ## Handwritten Digit Classifier Using the KNN Algorithm and MNIST Dataset
 
-[Github Repo](https://github.com/sshovkov/handwritten-digit-classifier)
+[GitHub Repo](https://github.com/sshovkov/handwritten-digit-classifier)
 
 For my first ML project, I decided to build a handwritten digit classification model using the MNIST dataset, a project that seems to be a right of passage for engineers who set out to learn ML.
 
