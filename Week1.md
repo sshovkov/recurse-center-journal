@@ -24,7 +24,7 @@ I decided that my first focus at RC was going to be an ML intensive. A chance to
 
 I jumped in with [Karpathy’s Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) series but after the first lecture I craved something more hands-on and decided to break up watching the lectures with an interactive [Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) course. It's simpler and less detailed than Karpathy's lectures, but a good way to get warmed up.
 
-I use Obsidian for note taking, which I recommend if you're studying something terminology-heavy and enjoy taking notes.
+I use Obsidian for note-taking, which I recommend if you're studying something terminology-heavy and enjoy taking notes.
 ![](/assets//week1/obsidian.png)
 If you’re a visual person like me, Obsidian’s graphs feature helps new concepts take shape and have meaning in relation to other ideas.
 
@@ -32,15 +32,15 @@ If you’re a visual person like me, Obsidian’s graphs feature helps new conce
 
 [Github Repo](https://github.com/sshovkov/handwritten-digit-classifier)
 
-For my first ML project, I decided to build a handwrittten digit classification model using the MNIST dataset, a project that seems to be a right of passage for engineers that set out to learn ML.
+For my first ML project, I decided to build a handwritten digit classification model using the MNIST dataset, a project that seems to be a right of passage for engineers who set out to learn ML.
 
 I was able to fairly quickly get an implementation of a KNN model off the ground, trained and tested on the MNIST dataset.
 
-Since a model is only as good as it's ability to actually predict new input, so I set out to expand it to take a local image as input, process it, and accurately classify it. I also wanted to display it to the user, along with its nearest 3 neighbors.
+Since a model is only as good as its ability to actually predict new input, I set out to expand it to take a local image as input, process it, and accurately classify it. I also wanted to display it to the user, along with its nearest 3 neighbors.
 
 Having had no prior experience with image processing, this ended up being a fun challenge.
 
-My initial implementation kept misclassifying all my handwritten digits as a "1". At some point I printed the NumPy array of my input image and a random `train_image`, which is when I came across my two big bugs -
+My initial implementation kept misclassifying all my handwritten digits as a "1". At some point, I printed the NumPy array of my input image and a random `train_image`, which is when I came across my two big bugs -
 
 1. The pixel values in `train_image[0]` were in the range [0, 255] but while processing my image I was mistakenly scaling down the pixel values to [0, 1]
 2. The input image didn’t have any “low” pixel values. The min pixel value in my image was around 109. I realized that in processing my image, I had failed to consider how the model would react to different ranges. The solution was to scale the colors of the input image to [0, 255].
@@ -55,5 +55,5 @@ def scale_image_colors(img: np.ndarray) -> np.ndarray:
     return img
 ```
 
-The end result was a KNN model that successfully classifies a handwritten digit with 97.05% accuracy 🎉
+After resolving those, the result was a KNN model that successfully classifies a handwritten digit with 97.05% accuracy 🎉
 ![](assets/week1/7_digit_classifier.png)
