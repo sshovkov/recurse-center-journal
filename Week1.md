@@ -55,5 +55,5 @@ def scale_image_colors(img: np.ndarray) -> np.ndarray:
     return img
 ```
 
-The end result was a KNN model that successfully classifies a handwritten digit with 97.05% accuracy 🎉
+After resolving those, the result was a KNN model that successfully classifies a handwritten digit with 97.05% accuracy 🎉
 ![](assets/week1/7_digit_classifier.png)
