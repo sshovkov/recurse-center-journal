@@ -6,11 +6,11 @@
 
 This week I started going in-person to the Recurse Center hub. The hub occupies two floors in a spacious building in Downtown Brooklyn and you can tell the space is thoughtfully designed and curated, dedicated to making you feel creative and inspired.
 
-There’s a computer lab with working computers from the 80s and 90s, a closet full of spare hardware for tinkering, a library with every computer-related book imaginable, a power nap corner, a full kitchen, and of course tons of desks (with monitors and keyboards) for heads-down work or pair programming.
+There’s a computer lab with working computers from the '80s and '90s, a closet full of spare hardware for tinkering, a library with every computer-related book imaginable, a power nap corner, a full kitchen, and of course tons of desks (with monitors and keyboards) for heads-down work or pair programming.
 
 ## Setting Up This Repo
 
-When I was first researching RC, I had come across several blogs from former Recursers that helped shape my understanding of the program and made me excited about the opportunity. I found it energizing to read other people's accounts of what they built, how, and why.
+When I was first researching RC, I came across several blogs from former Recursers that helped shape my understanding of the program and made me excited about the opportunity. I found it energizing to read other people's accounts of what they built, how, and why.
 
 Special s/o to these blogs -
 
@@ -30,25 +30,25 @@ I came across a phrase, "pounds of clay", that refers to a learning approach tra
 
 > The ceramics teacher announced on opening day that he was dividing the class into two groups. All those on the left side of the studio, he said, would be graded solely on the quantity of work they produced, all those on the right solely on its quality. His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the "quantity" group: fifty pound of pots rated an "A", forty pounds a "B", and so on. Those being graded on "quality", however, needed to produce only one pot -- albeit a perfect one -- to get an "A". Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the "quantity" group was busily churning out piles of work - and learning from their mistakes -- the "quality" group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
 
-In startup world, everyone talks about how perfect is the enemy of done. This is true, but a good MVP is not a lot of things done, it's a few things done perfectly.
+In the startup world, everyone talks about how perfect is the enemy of done. This is true, but a good MVP is not a lot of things done, it's a few things done perfectly.
 
 I'm known for my ability to polish a project, to hone in on the details until they are exactly how I want them to be.
 
-While I still believe in that level of detail, I want my limited time at RC to be about getting my hands dirty with a variety of topics and to challenge my approach to problems and idea generation. As a result, #PoundsOfClay is the mindset I'm adopting, more-or-less.
+While I still believe in that level of detail, I want my limited time at RC to be about getting my hands dirty with a variety of topics and challenging my approach to problems and idea generation. As a result, #PoundsOfClay is the mindset I'm adopting, more or less.
 
 ## Building a VSCode Extension - `SwapCode`
 
 [Github Repo](https://github.com/sshovkov/swapcode-vscode-extension)
 
-Rearranging code in a file is a natural part of development. There's a number of code swapping extensions for VSCode, but none that I have found to work intuitively.
+Rearranging code in a file is a natural part of development. There are a number of code-swapping extensions for VSCode, but none that I have found to work intuitively.
 
 In the spirit of #PoundsOfClay, I decided to time-block 1.5 hours for building my own (and first) VSCode extension to handle this.
 
 The goal: move selected text into clipboard, and clipboard contents into editor. And with an intuitive keyboard shortcut, not the command palette.
 
-The implementation was pretty straight forward since it was just a simple swap and [VSCode's documentation](https://code.visualstudio.com/api/get-started/your-first-extension) was easy to follow.
+The implementation was pretty straightforward since it was a simple swap and [VSCode's documentation](https://code.visualstudio.com/api/get-started/your-first-extension) was easy to follow.
 
-I was able to complete the implemetation in about 45 minutes and setup publishing in about 20 minutes.
+I was able to complete the implementation in about 45 minutes and set up publishing in about 20 minutes.
 
 Ta-da. [Swap Code](https://marketplace.visualstudio.com/items?itemName=SophiaShovkovy.swapcode).
 
@@ -56,7 +56,7 @@ Ta-da. [Swap Code](https://marketplace.visualstudio.com/items?itemName=SophiaSho
 
 [Github Repo](https://github.com/sshovkov/fractal-noise-generator)
 
-One of my focus areas for RC is experimenting with generative art, and I came across Perlin Noise while going down a rabbit-hole of procedural texture generation.
+One of my focus areas for RC is experimenting with generative art, and I came across Perlin Noise while going down a rabbit hole of procedural texture generation.
 
 Perlin noise is a procedural texture primitive, a type of gradient noise used in visual effects to increase the appearance of realism in computer graphics.
 
