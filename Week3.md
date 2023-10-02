@@ -5,6 +5,7 @@
 ## Creating Mini Python libraries
 
 [Install fractal-noise](https://pypi.org/project/fractal-noise/)
+
 [GitHub Repo for fractal-noise](https://github.com/sshovkov/fractal-noise-package)
 
 To build on [last week's fractal noise generator](https://github.com/sshovkov/recurse-center-journal/blob/main/Week2.md#a-fractal-noise-generator), I set out to convert it into a working Python library and publish it. I followed [PyPI's documentation](https://packaging.python.org/tutorials/packaging-projects/) to create the required file and folder structure, as well as how to build and publish the package.
@@ -13,9 +14,10 @@ In the process of making this a scalable package, I decided to be a responsible 
 
 Once the package was successfully published, I installed it in a new project directory and tested its abilities by generating and applying the fractal noise pattern to a local image.
 
-..image...
+..image coming soon...
 
 [Install showme-tree](https://pypi.org/project/showme-tree/)
+
 [GitHub Repo for showme-tree](https://github.com/sshovkov/showme-folder-structure)
 
 One of the group sessions I attended at RC was discussing the power of debugging with OpenAI's ChatGPT. Unlike Stack Overflow, ChatGPT provides possible solutions directly applicable to your project and saves you the time and effort of translating someone else's files, folders, and variable names into your own.
