@@ -54,8 +54,6 @@ Ta-da. [Swap Code](https://marketplace.visualstudio.com/items?itemName=SophiaSho
 
 ## A Fractal Noise Generator
 
-[GitHub Repo](https://github.com/sshovkov/fractal-noise-generator)
-
 One of my focus areas for RC is experimenting with generative art, and I came across Perlin Noise while going down a rabbit hole of procedural texture generation.
 
 Perlin noise is a procedural texture primitive, a type of gradient noise used in visual effects to increase the appearance of realism in computer graphics. Multiple layers of Perlin Noise produce Fractal Noise, a noise pattern commonly used to create complex and natural-looking patterns like clouds, fire, or terrain.
