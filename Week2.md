@@ -8,6 +8,8 @@ This week I started going in-person to the Recurse Center hub. The hub occupies 
 
 There’s a computer lab with working computers from the '80s and '90s, a closet full of spare hardware for tinkering, a library with every computer-related book imaginable, a power nap corner, a full kitchen, and of course tons of desks (with monitors and keyboards) for heads-down work or pair programming.
 
+![](assets/week2/rc_hub.png)
+
 ## Setting Up This Repo
 
 When I was first researching RC, I came across several blogs from former Recursers that helped shape my understanding of the program and made me excited about the opportunity. I found it energizing to read other people's accounts of what they built, how, and why.
