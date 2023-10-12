@@ -14,7 +14,9 @@ In the process of making this a scalable package, I decided to be a responsible 
 
 Once the package was successfully published, I installed it in a new project directory and tested its abilities by generating and applying the fractal noise pattern to a local image.
 
-..image coming soon...
+| Original Image                         | With Fractal Noise                          | With Fractal Noise (color)                        |
+| -------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
+| ![](assets/week3/rainbow_original.png) | ![](assets/week3/rainbow_fractal_noise.png) | ![](assets/week3/rainbow_color_fractal_noise.png) |
 
 [Install showme-tree](https://pypi.org/project/showme-tree/)
 
