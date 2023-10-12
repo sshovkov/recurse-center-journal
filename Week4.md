@@ -8,7 +8,7 @@ Unfortunately, I caught a terrible cold or flu at the end of last week that had 
 
 [GitHub Repo](https://github.com/sshovkov/finger-painting-hand-recognition-model)
 
-This week I started recovering from my cold and I jumped back into playing with Google's MediaPipe library and the [hand-tracking model from last week](https://github.com/sshovkov/recurse-center-journal/blob/main/Week3.md#experimenting-with-googles-mediapipe). I expanded on my initial implementation by creating an interactive real-time finger painting application.
+When I started recovering from my cold, I jumped back into playing with Google's MediaPipe library and the [hand-tracking model from last week](https://github.com/sshovkov/recurse-center-journal/blob/main/Week3.md#experimenting-with-googles-mediapipe). I expanded on my initial implementation by creating an interactive real-time finger painting application.
 
 ![](assets/week4/finger_painting_small_file.gif)
 
