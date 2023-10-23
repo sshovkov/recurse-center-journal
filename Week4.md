@@ -26,3 +26,11 @@ The hand landmarks detected include the position of the fingertips and other key
 When drawing is enabled, the program first draws red circles on all detected landmarks for hand-tracking visualization. To create a responsive, and natural drawing interaction, the program tracks the position of the right hand's index fingertip (landmark 8) in the current frame and compares it with the position in the previous frame, computing the difference in X and Y coordinates. The code implements a simple linear interpolation algorithm to estimate the positions of the index fingertip between consecutive frames, resulting in a visually appealing, responsive, and continuous drawing experience.
 
 The drawn lines are superimposed onto an existing canvas. The canvas is represented as a NumPy array with the same dimensions as the video frame. The drawn lines are blended with the canvas using the `cv2.addWeighted()` function, creating a persistence effect and allowing for continuous drawing without clearing the canvas.
+
+## Some lectures
+
+When I'm between projects and working on brainstorming my next idea, I defer to watching [Karpathy’s Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) series that I started my first week.
+
+I initially planned to rush the videos, but I'm glad I didn't. I've always found it difficult to focus on non-interactive lectures or work on things where I don't see real-world applicability (Leetcode). In hindsight, rushing the videos wouldn't have been as effective for me.
+
+Injecting lectures while I'm between projects has been a great way to cement my understanding of things and spark new ideas.
