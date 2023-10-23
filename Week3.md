@@ -4,7 +4,7 @@
 
 ## Creating Mini Python libraries
 
-### fractal-noise library
+### fractal-noise
 
 [Install fractal-noise](https://pypi.org/project/fractal-noise/)
 
@@ -19,7 +19,6 @@ Once the package was published, I installed it in a new project directory and te
 | Original Image                         | With Fractal Noise                          | With Fractal Noise (color)                        |
 | -------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
 | ![](assets/week3/rainbow_original.png) | ![](assets/week3/rainbow_fractal_noise.png) | ![](assets/week3/rainbow_color_fractal_noise.png) |
-
 
 ### showme-tree
 
