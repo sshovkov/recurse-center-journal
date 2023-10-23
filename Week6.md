@@ -18,10 +18,9 @@ I applied to RC with a half-batch on my application, which I extended to a full 
 
 In H1, I focused on building bite-sized projects, aiming for at least 1 small and 3 mini every week. I wanted the repetition of setting up projects from scratch over and over again. I also wanted to strengthen the muscle that starts developing without overthinking the logistics.
 
-> A small project is 2 days
-> A mini project is 1 day or less
+> A small project is 2 days, a mini project is 1 day or less.
 
-I learned that I'm very effective at overcoming blockers, so overpreparing for them in advance doesn't really have a positive impact the way that my planner-personality wants it to have. The unexpected soldering in [Week 5](Week5.md) is the perfect example.
+I learned that I'm very effective at overcoming blockers, so overpreparing for them doesn't really have the positive impact that my planner-personality wants it to have. The unexpected soldering in [Week 5](Week5.md) is the perfect example.
 
 If I had known from the beginning that my Raspberry Pi would require me to solder the headers myself, my [mise en place](https://en.wikipedia.org/wiki/Mise_en_place) nature would've probably led me to overinvest in understanding how soldering works, figuring out how to get the equipment, and potentially even buying a replacement Raspberry Pi.
 
