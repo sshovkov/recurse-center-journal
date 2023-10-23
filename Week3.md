@@ -4,6 +4,8 @@
 
 ## Creating Mini Python libraries
 
+### fractal-noise library
+
 [Install fractal-noise](https://pypi.org/project/fractal-noise/)
 
 [GitHub Repo for fractal-noise](https://github.com/sshovkov/fractal-noise-package)
@@ -12,11 +14,14 @@ To build on [last week's fractal noise generator](https://github.com/sshovkov/re
 
 In the process of making this a scalable package, I decided to be a responsible contributor and create a test suite. The tests helped me uncover that my original implementation did not work for non-square dimensions. I was encountering an out-of-bounds error because I was creating the noise array with dimensions (width, height) but accessing it as noise[y, x]. This effectively was transposing square arrays (used in hand testing) but failed for non-square dimensions. It was an easy fix and I'm glad my tests helped uncover this bug.
 
-Once the package was successfully published, I installed it in a new project directory and tested its abilities by generating and applying the fractal noise pattern to a local image.
+Once the package was published, I installed it in a new project directory and tested its abilities by generating and applying the fractal noise pattern to a local image.
 
 | Original Image                         | With Fractal Noise                          | With Fractal Noise (color)                        |
 | -------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
 | ![](assets/week3/rainbow_original.png) | ![](assets/week3/rainbow_fractal_noise.png) | ![](assets/week3/rainbow_color_fractal_noise.png) |
+
+
+### showme-tree
 
 [Install showme-tree](https://pypi.org/project/showme-tree/)
 

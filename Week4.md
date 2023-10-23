@@ -8,7 +8,7 @@ Unfortunately, I caught a terrible cold or flu at the end of last week that had 
 
 [GitHub Repo](https://github.com/sshovkov/finger-painting-hand-recognition-model)
 
-This week I started recovering from my cold and I jumped back into playing with Google's MediaPipe library and the [hand-tracking model from last week](https://github.com/sshovkov/recurse-center-journal/blob/main/Week3.md#experimenting-with-googles-mediapipe). I expanded on my initial implementation by creating an interactive real-time finger painting application.
+When I started recovering from my cold and I jumped back into playing with Google's MediaPipe library and the [hand-tracking model from last week](https://github.com/sshovkov/recurse-center-journal/blob/main/Week3.md#experimenting-with-googles-mediapipe). I expanded on my initial implementation by creating an interactive real-time finger painting application.
 
 ![](assets/week4/finger_painting_small_file.gif)
 
@@ -23,6 +23,6 @@ The code utilizes the MediaPipe library for hand tracking and OpenCV for image p
 
 The hand landmarks detected include the position of the fingertips and other key points on the hand. If a hand is detected and painting mode is enabled (toggled with the space bar), the program identifies the handedness. If the left hand is detected, drawing is paused; otherwise, drawing is enabled.
 
-When drawing is enabled, the program first draws red circles on all detected landmarks for hand-tracking visualization. To create a responsive, and natural drawing interaction, the program tracks the position of the right hand's index fingertip (landmark 8) in the current frame and compares it with the position in the previous frame, computing the difference in X and Y coordinates. The code implements a simple linear interpolation algorithm to estimate the positions of the index fingertip between consecutive frames, resulting in a  visually appealing, responsive, and continuous drawing experience. 
+When drawing is enabled, the program first draws red circles on all detected landmarks for hand-tracking visualization. To create a responsive, and natural drawing interaction, the program tracks the position of the right hand's index fingertip (landmark 8) in the current frame and compares it with the position in the previous frame, computing the difference in X and Y coordinates. The code implements a simple linear interpolation algorithm to estimate the positions of the index fingertip between consecutive frames, resulting in a visually appealing, responsive, and continuous drawing experience.
 
 The drawn lines are superimposed onto an existing canvas. The canvas is represented as a NumPy array with the same dimensions as the video frame. The drawn lines are blended with the canvas using the `cv2.addWeighted()` function, creating a persistence effect and allowing for continuous drawing without clearing the canvas.
