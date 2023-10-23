@@ -23,7 +23,7 @@ In H1, I focused on building bite-sized projects, aiming for at least 1 small an
 
 I learned that I'm very effective at overcoming blockers, so overpreparing for them in advance doesn't really have a positive impact the way that my planner-personality wants it to have. The unexpected soldering in [Week 5](Week5.md) is the perfect example.
 
-If I had known from the beginning that the Raspberry Pi I bought would require me to solder the headers myself, I probably would've overinvested in understanding how soldering works, figuring out how to get the equipment, and potentially even buying a replacement Raspberry Pi.
+If I had known from the beginning that my Raspberry Pi would require me to solder the headers myself, my [mise en place](https://en.wikipedia.org/wiki/Mise_en_place) nature would've probably led me to overinvest in understanding how soldering works, figuring out how to get the equipment, and potentially even buying a replacement Raspberry Pi.
 
 I would've missed out on the effort it took to acquire soldering equipment from a neighbor via Facebook and learning how to solder through YouTube without practicing on something else first.
 
